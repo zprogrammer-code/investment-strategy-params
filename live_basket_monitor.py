@@ -1,3 +1,5 @@
+import os
+from dotenv import load_dotenv
 import yfinance as yf
 import pandas as pd
 from alpaca.trading.client import TradingClient
